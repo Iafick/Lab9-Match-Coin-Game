@@ -59,8 +59,6 @@ def main():
     # Final results
     print("\n--- Final Score ---")
     print(f"Player 1: {player1.get_wallet()}")
-    print(f"Player 2: {player2.get_wallet()}")
-
     if player1.get_wallet() > player2.get_wallet():
         print("Player 1 wins the game!")
     elif player2.get_wallet() > player1.get_wallet():
