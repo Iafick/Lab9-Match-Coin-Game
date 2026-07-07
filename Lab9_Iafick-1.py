@@ -18,7 +18,6 @@ def main():
             break
 
         print("\nTossing...\n")
-
         player1.toss_coin()
         player2.toss_coin()
 
